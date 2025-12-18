@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: duhigure
-          image: duhigure:prod
+          image: duhigure:v2
           imagePullPolicy: Never
           ports:
             - containerPort: 8080

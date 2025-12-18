@@ -301,7 +301,7 @@ app.delete('/duties/:id', (req, res) => {
         res.json({ message: 'Duty deleted successfully' });
     });
 });
-
+    
 // ========== STATISTICS ROUTES ==========
 
 // Get dashboard statistics
